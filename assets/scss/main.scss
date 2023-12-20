@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Montserrat:wght@400;500;600;700&display=swap');
+
+@import './base/_vars';
+@import './blocks/_header';
+@import './blocks/_solutions';
+@import './blocks/_about-us';
+@import './blocks/_products';
+
+* {
+	box-sizing: border-box;
+}
+
+.container {
+	max-width: 1070px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.btn {
+	color: #000;
+	font-family: var(--font-montserrat);
+	font-size: 16px;
+	font-weight: 500;
+	border: none;
+	background-color: var(--accent-color);
+	cursor: pointer;
+	padding: 16px 39px;
+	&:hover {
+		opacity: 0.9;
+	}
+}
